@@ -6,7 +6,7 @@
 
 The undersigned authorized person, desiring to form a limited liability company pursuant to the Limited Liability Company Act of the State of Delaware, hereby certifies as follows:
 
-^ __Name__. The name of the limited liability company is [[Smart Company Name]] LLC (the "__Company__").
+^ __Name__. The name of the limited liability company is [[Smart Company Name]] LLC (the ***"__Company__"***).
 
 ^ __Registered Office and Registered Agent__. The Registered Office of the Company in the State of Delaware is located at 8 The Green, Dover, DE 19901, USA. The name of the Registered Agent at such address upon whom process against the Company may be served is *A Registered Agent, Inc.* 
 
