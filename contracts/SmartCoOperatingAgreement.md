@@ -50,7 +50,7 @@ Date: [[Smart Company Formation Date]]
 
 **CAPITAL CONTRIBUTIONS**
 
-**2.1 Initial Contributions**. The initial and other contributions of the Members and those subsequently admitted as Members shall be set forth in *Schedule 1* as amended from time to time. Contributions shall be made in ether, USDC, DAI, digital assets, cryptocurrencies and/or equivalent work as determined by the Members. {{Series => Contributions by members among Series shall be set forth in *Schedule 2* as amended from time to time.}}
+**2.1 Initial Contributions**. The initial and other contributions of the Members and those subsequently admitted as Members shall be set forth in *Schedule 1* as amended from time to time. Contributions shall be made in ether, USDC, DAI, digital assets, cryptocurrencies and/or equivalent work as determined by the Members. Contributions by members among Series shall be set forth in *Schedule 2* as amended from time to time.
 
 **2.2 Additional Contributions**. No Member shall be obligated to make any additional contribution to the Smart Company's capital without the consent of the Members as provided in this Agreement.
 
@@ -78,7 +78,7 @@ Date: [[Smart Company Formation Date]]
 
 **5.1 Management of Smart Company**. 
 
-**5.1.1** The Members, within the authority granted by the Act and the terms of this Agreement and as signified through Member Token Votes (*defined below*), shall have the complete power and authority to manage and operate the Smart Company and make all decisions affecting its business and affairs. {{Series => Similarly, the business and affairs of a Series shall be vested in the members of that Series in accordance with this Agreement and as detailed in *Schedule 2*.}}
+**5.1.1** The Members, within the authority granted by the Act and the terms of this Agreement and as signified through Member Token Votes (*defined below*), shall have the complete power and authority to manage and operate the Smart Company and make all decisions affecting its business and affairs. Similarly, the business and affairs of a Series shall be vested in the members of that Series in accordance with this Agreement and as detailed in *Schedule 2*.
 
 **5.1.2** Except as otherwise provided in this Agreement, all decisions and documents relating to the management and operation of the Smart Company shall be made and determined by recorded votes of the Members' interests in the Smart Company secured and denominated on Ethereum ("***Member Tokens***") and as signified through the online Smart Company Member portal indicated on *Schedule 1*, including such other governance interfaces approved by the Members as provided in this Agreement (such determination, "***Member Token Votes***").
 
@@ -108,7 +108,7 @@ Date: [[Smart Company Formation Date]]
 
 **7.3 Fiscal Year; Taxable Year**. The fiscal year and the taxable year of the Smart Company is the calendar year.
 
-**7.4 Capital Accounts**. Capital Accounts among the Members {{Series => and any Series formed hereafter}} shall be maintained on Ethereum and evidenced by Member Token Votes {{Series => and equivalent determinations by Series under their respective agreements}}.
+**7.4 Capital Accounts**. Capital Accounts among the Members and any Series formed hereafter shall be maintained on Ethereum and evidenced by Member Token Votes and equivalent determinations by Series under their respective agreements.
 
 **7.5 Tax Representative**. The Members shall select a "Tax Representative," who shall be the "partnership representative" of the Smart Company within the meaning of Section 6223(a) of the Internal Revenue Code of 1986. If any state or local tax law provides for a partnership representative or person having similar rights, powers, authority or obligations (including as a "tax matters partner"), the Tax Representative shall also serve in such capacity. The Tax Representative may resign at any time. If a Tax Representative ceases to serve as such for any reason, the Smart Company itself will automatically and immediately become the new (acting) Tax Representative until a new Tax Representative is selected by the Members as provided in this Agreement.
 
@@ -128,7 +128,7 @@ By entering into this Agreement, Members represent and warrant to the Smart Comp
 
 **TRANSFER OF MEMBERSHIP INTERESTS**
 
-**9.1 Sale or Encumbrance Prohibited**. Except as otherwise permitted in this Agreement, no Member may voluntarily or involuntarily transfer, sell, convey, encumber, pledge, assign, or otherwise dispose of (collectively, "***Transfer***") an interest in the Smart Company, including, but not limited to, assigning control over Member Tokens, without the prior authorization of the Members under Member Token Votes or formal assignment mechanisms otherwise authorized {{Series => for the Smart Company or Series formed hereafter}}.
+**9.1 Sale or Encumbrance Prohibited**. Except as otherwise permitted in this Agreement, no Member may voluntarily or involuntarily transfer, sell, convey, encumber, pledge, assign, or otherwise dispose of (collectively, "***Transfer***") an interest in the Smart Company, including, but not limited to, assigning control over Member Tokens, without the prior authorization of the Members under Member Token Votes or formal assignment mechanisms otherwise authorized for the Smart Company or Series formed hereafter.
 
 **9.2.1 Death, Incompetency, or Bankruptcy of Member**. On the death, adjudicated incompetence, or bankruptcy of a Member, unless the Smart Company exercises its rights under *Section 9.3*, the successor-in-interest to the Member (whether an estate, bankruptcy trustee, or otherwise) will receive only the economic right to receive distributions whenever made by the Smart Company and the Member's allocable share of taxable income, gain, loss, deduction, and credit (the "***Economic Rights***") unless and until the transferee is admitted as a fully substituted Member by Member Token Votes.
 
@@ -214,4 +214,4 @@ The Smart Company providing a digital signature in connection with the Agreement
 
 The following Series have been established under the Smart Company pursuant to the Act, § 18-215:
 
-*Those Series duly authorized under the Smart Company governance interface(s) established by execution of this Agreement.*
+*Those Series duly authorized under Member Token Votes and the Smart Company governance interface(s) established under this Agreement.*
