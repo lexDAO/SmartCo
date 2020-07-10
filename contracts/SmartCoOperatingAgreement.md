@@ -18,9 +18,6 @@ Authorized Person
 
 Date: [[Smart Company Formation Date]]
 
-\pagebreak
-[[Smart Company Logo]]
-
 **SMART CO. OPERATING AGREEMENT**
 
 **[[Smart Company Name | Uppercase]] LLC**
@@ -217,4 +214,4 @@ The Smart Company providing a digital signature in connection with the Agreement
 
 The following Series have been established under the Smart Company pursuant to the Act, § 18-215:
 
-\centered *Those Series duly authorized under the Smart Company governance interface(s) established by execution of this Agreement.*
+*Those Series duly authorized under the Smart Company governance interface(s) established by execution of this Agreement.*
