@@ -19,14 +19,13 @@ SMART CO. OPERATING AGREEMENT
 > `Operating Agreement for Delaware Smart Co.`
 ***************/
 contract OperatingAgreement {
-    address private proposedLexDAO;
     address payable public lexDAO;
     uint256 public filingFee;
     uint256 public sigFee;
     uint256 public version;
     string public terms;
 
-    // Signature tracking
+    // Signature tracking: 
     uint256 public signature;
     mapping (uint256 => Signature) public sigs;
 
@@ -39,26 +38,26 @@ contract OperatingAgreement {
         bool filed;
     }
 
-    event Amended(uint256 indexed version, string indexed terms);
-    event Filed(address indexed signatory, uint256 indexed number, string indexed details);
-    event Signed(address indexed signatory, uint256 indexed number, string indexed details);
-    event Upgraded(address indexed signatory, uint256 indexed number, string indexed details);
-    event LexDAOProposed(address indexed proposedLexDAO, string indexed details);
-    event LexDAOTransferred(address indexed lexDAO, string indexed details);
+    event Amended(uint256 indexed version, bytes32 indexed terms);
+    event Filed(address indexed signatory, uint256 indexed number, bytes32 indexed details);
+    event Signed(address indexed signatory, uint256 indexed number, bytes32 indexed details);
+    event Upgraded(address indexed signatory, uint256 indexed number, bytes32 indexed details);
+    event LexDAOProposed(address indexed proposedLexDAO, bytes32 indexed details);
+    event LexDAOTransferred(address indexed lexDAO, bytes32 indexed details);
 
-    constructor (address payable _lexDAO, uint256 _filingFee, uint256 _sigFee, string memory _terms) public {
+    constructor(address payable _lexDAO, uint256 _filingFee, uint256 _sigFee, bytes32 memory _terms) public {
         lexDAO = _lexDAO;
         filingFee = _filingFee;
         sigFee = _sigFee;
         terms = _terms;
     }
 
-    /***************
+    /******************
     SMART CO. FUNCTIONS
-    ***************/
-    function fileCo(uint256 number, string memory details) public payable {
+    ******************/
+    function fileCo(uint256 number, bytes details) payable public {
         require(msg.value == filingFee);
-	    Signature storage sig = sigs[number];
+	Signature storage sig = sigs[number];
         require(msg.sender == sig.signatory);
 
         sig.filed = true;
@@ -68,10 +67,10 @@ contract OperatingAgreement {
         emit Filed(msg.sender, number, details);
     }
 
-    function signTerms(string memory details) public payable {
+    function signTerms(bytes32 details) payable public {
         require(msg.value == sigFee);
-	    uint256 number = signature + 1;
-	    signature = signature + 1;
+	uint256 number += signature;
+	signature += signature;
 
         sigs[number] = Signature(
                 msg.sender,
@@ -86,7 +85,7 @@ contract OperatingAgreement {
         emit Signed(msg.sender, number, details);
     }
 
-    function upgradeSignature(uint256 number, string memory details) public payable {
+    function upgradeSignature(uint256 number, bytes32 details) payable public {
         Signature storage sig = sigs[number];
         require(msg.sender == sig.signatory);
 
@@ -103,12 +102,12 @@ contract OperatingAgreement {
     MGMT FUNCTIONS
     ***************/
     modifier onlyLexDAO() {
-        require(msg.sender == lexDAO, "Sender not authorized.");
+        require(msg.sender == lexDAO, "not lexDAO");
         _;
     }
 
     function amendTerms(string memory _terms) public onlyLexDAO {
-        version = version + 1;
+        version += version;
         terms = _terms;
 
         emit Amended(version, terms);
@@ -122,8 +121,8 @@ contract OperatingAgreement {
         sigFee = weiAmount;
     }
 
-    function transferLexDAO(string memory details) public {
-        lexDAO = msg.sender;
+    function transferLexDAO(address payable _lexDAO, bytes32 details) public {
+        lexDAO = _lexDAO;
         emit LexDAOTransferred(lexDAO, details);
     }
 }
